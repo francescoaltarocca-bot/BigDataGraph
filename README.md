@@ -33,6 +33,22 @@ pip install -r requirements.txt
 Typical dependencies include libraries for data processing and graph construction (e.g., networkx).
 See requirements.txt for more datails.
 
+## Runtime Requirements
+
+- **Python:** 3.8 or higher
+- **Java:** 8 or 11 (required by PySpark)
+- **Apache Spark:** 3.3.0 or higher
+- **Memory:** at least 8GB recommended for large datasets
+- **OS:** Linux, macOS, or Windows 10+
+
+## Additional Notes
+
+GraphFrames requires Apache Spark and the corresponding Scala version compatible with your Spark release.
+Always check the official documentation: **GraphFrames for Spark**.
+
+spaCy requires downloading the English language model:
+python -m spacy download en_core_web_sm
+
 ## Usage
 
 To generate a graph from a JSON file containing tweets:
