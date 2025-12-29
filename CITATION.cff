@@ -5,5 +5,5 @@ authors:
     given-names: Francesco
     affiliation: "Independent Researcher"
 version: "0.2.0"
-doi: "TO_BE_ASSIGNED"
+doi: "https://doi.org/10.5281/zenodo.18088014"
 url: "https://github.com/francescoaltarocca-bot/BigDataGraph"
