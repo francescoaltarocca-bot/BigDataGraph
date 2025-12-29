@@ -15,7 +15,7 @@ The project is designed for **big data processing**, **graph analytics**, and **
 BigDataGraph/
 ├── bigdata/
 │   └── Python modules implementing graph construction logic
-├── main.py
-├── requirements.txt
+├── main.py – core source code
+├── requirements.txt – Python dependencies
 ├── LICENSE
 └── README.md
