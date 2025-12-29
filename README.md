@@ -104,12 +104,14 @@ Edges representing:
 The resulting graph can be further analyzed using graph analysis tools such as NetworkX, Gephi, or custom analytics pipelines.
 
 ## Example
+```bash
 python main.py \
   --input datasets/data.json \
   --output results/ \
   --save_full_graph \
   --save_pbi_report \
   --save_word_cloud
+```
 
 ## Reproducibility
 
@@ -161,7 +163,6 @@ This includes, but is not limited to:
 - legal or ethical consequences related to data usage
 
 By using this software, you acknowledge that you do so **at your own risk**.
-
 
 ## Author and Affiliation
 
