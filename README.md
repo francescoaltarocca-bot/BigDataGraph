@@ -22,7 +22,7 @@ BigDataGraph/
 ├── requirements.txt – Python dependencies
 ├── LICENSE
 └── README.md
-
+```
 ## Requirements
 
 Python ≥ 3.8
