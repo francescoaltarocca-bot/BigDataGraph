@@ -135,7 +135,7 @@ If you use BigDataGraph in academic work, please cite it as follows:
   affiliation = {Independent Researcher},
   year      = {2025},
   publisher = {Zenodo},
-  doi       = {https://doi.org/10.5281/zenodo.18088014}
+  doi       = {https://doi.org/10.5281/zenodo.18088015}
 }
 
 ## Disclaimer
