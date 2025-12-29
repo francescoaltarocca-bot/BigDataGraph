@@ -130,7 +130,7 @@ If you use BigDataGraph in academic work, please cite it as follows:
 @software{BigDataGraph2025,
   title     = {BigDataGraph},
   author    = {Altarocca, Francesco},
-  affiliation = {University of Rome "Tor Vergata"},
+  affiliation = {Independent Researcher},
   year      = {2025},
   publisher = {Zenodo},
   doi       = {TO_BE_ASSIGNED}
@@ -166,6 +166,6 @@ By using this software, you acknowledge that you do so **at your own risk**.
 ## Author and Affiliation
 
 **Francesco Altarocca**  
-Affiliation: University of Rome "Tor Vergata"  
+Affiliation: Independent Researcher  
 
 *This work was developed independently and does not necessarily reflect the views of any current or past employer, institution, or organization.*
