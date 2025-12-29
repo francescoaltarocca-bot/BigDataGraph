@@ -5,7 +5,7 @@
 **BigDataGraph** is a Python-based project for **Social Network Analysis (SNA)** built from Twitter data provided in JSON format.  
 The software constructs a **unified graph** representing relationships between users, hashtags, and retweets, enabling structural and semantic analysis of social interactions.
 
-The project is designed for **big data processing**, **graph analytics**, and **network-based exploration** of relationships in general.
+The project is designed for **big data processing**, **graph analytics**, and **network-based exploration** of relationships in general and use Jaccard similarity.
 
 ---
 
