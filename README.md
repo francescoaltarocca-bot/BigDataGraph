@@ -52,7 +52,7 @@ python -m spacy download en_core_web_sm
 ## Usage
 
 To generate a graph from a JSON file containing tweets:
-
+```bash
 Usage: python main.py input_file [--output_path] [--id_neighbours id] [--save_full_graph] [--save_pbi_report] [--save_word_cloud] [--only_tags_from_not_retweetted_posts]
 
 INPUT_FILE
@@ -81,10 +81,20 @@ Default: False
 --only_tags_from_not_retweetted_posts
 Consider only hashtags extracted from non-retweeted posts.
 Default: False
+```
 
 ## Output
 
-The software produces a graph structure containing: Nodes representing users and hashtags
+The software produces a graph containing:
+
+- **Nodes**
+  - Users
+  - Hashtags
+
+- **Edges**
+  - Retweet relationships
+  - Shared hashtags
+  - Similarity relationships (e.g., Jaccard similarity)
 
 Edges representing:
 - retweet relationships
@@ -120,6 +130,7 @@ If you use BigDataGraph in academic work, please cite it as follows:
 @software{BigDataGraph2025,
   title     = {BigDataGraph},
   author    = {Altarocca, Francesco},
+  affiliation = {University of Rome "Tor Vergata"},
   year      = {2025},
   publisher = {Zenodo},
   doi       = {TO_BE_ASSIGNED}
@@ -150,3 +161,11 @@ This includes, but is not limited to:
 - legal or ethical consequences related to data usage
 
 By using this software, you acknowledge that you do so **at your own risk**.
+
+
+## Author and Affiliation
+
+**Francesco Altarocca**  
+Affiliation: University of Rome "Tor Vergata"  
+
+*This work was developed independently and does not necessarily reflect the views of any current or past employer, institution, or organization.*
